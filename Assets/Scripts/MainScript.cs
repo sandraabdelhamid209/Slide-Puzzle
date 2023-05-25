@@ -9,6 +9,7 @@ public class MainScript : MonoBehaviour
 //The tiles were added inside of unity in the camera size array which can be found in the inspector.
     [SerializeField] private TileScript[] tiles;
     
+    
 // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +20,8 @@ public class MainScript : MonoBehaviour
 // Update is called once per frame
     void Update()
     {
-        if (IsSolved())
-            return;
+  //      if (IsSolved())
+   //         return;
         
 //The mouse button will be used to click and move tiles around (0) means that you are using the left mouse button
        if (Input.GetMouseButtonDown(0)) 
@@ -123,14 +124,14 @@ public class MainScript : MonoBehaviour
         return inversionsSum;
     }
 
-    public bool IsSolved()
-    {
-        foreach (TileScript tile in tiles)
-        {
-            if (tile.IsCorrect == false)
-                return false;
-        }
+ //   public bool IsSolved()
+ //   {
+ //       foreach (TileScript tile in tiles)
+  //      {
+  //          if (tile.IsCorrect == false)
+  //              return false;
+ //       }
 
-        return true;
-    }
+ //       return true;
+  //  }
 }

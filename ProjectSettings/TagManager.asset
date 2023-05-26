@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 1726630867
     locked: 0
-  - name: 'Smoke '
+  - name: Middle
     uniqueID: 289610007
+    locked: 0
+  - name: Front
+    uniqueID: 1708529217
     locked: 0

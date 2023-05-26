@@ -28,7 +28,6 @@ public class MainScript : MonoBehaviour
        {
            Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
-           SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Click);
             if (hit)
             {
                 if (Vector2.Distance(a: emptySpace.position, b:hit.transform.position) < 1.3)

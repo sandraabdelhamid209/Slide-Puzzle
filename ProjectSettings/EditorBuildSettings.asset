@@ -19,10 +19,19 @@ EditorBuildSettings:
     guid: 031b8d016099df54bb61d0c969e2bb16
   - enabled: 1
     path: Assets/Scenes/Alt. Ending A.unity
-    guid: fe2452613ae0ebf408ca855fabd11452
+    guid: c1d649b34e8be3943acf97336515346e
   - enabled: 1
     path: Assets/Scenes/Alt. Ending B.unity
-    guid: 14ad8b03f862f374baa492373cfc2655
+    guid: dabf2a47700db6b4fa5ec5a928f68fd1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

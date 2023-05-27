@@ -261,7 +261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -87}
+  m_AnchoredPosition: {x: -1.7, y: -87}
   m_SizeDelta: {x: 160, y: 73.374}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &99952017
@@ -5288,7 +5288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Audio: {fileID: 1961181387}
-  Click: {fileID: 8300000, guid: 5ec23cff53ec30f4ab74157f9f8d4b78, type: 3}
+  Click: {fileID: 8300000, guid: b6e90186cb9a62d4f9663cf019fd6ab1, type: 3}
 --- !u!82 &434587345
 AudioSource:
   m_ObjectHideFlags: 0
